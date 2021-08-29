@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./code/code.js">
+    <link rel="stylesheet" href="./code/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+  </head>
+  <body>
+    <div class="player">
+      <div class="dashboard">
+          <!-- header  -->
+        <!-- control -->
+        <div class="cd">
+          <div
+            class="cd-thumb"
+            style="
+              background-image: url('https://i.ytimg.com/vi/jTLhQf5KJSc/maxresdefault.jpg');
+            "
+          ></div>
+        </div>
+        <div class="feel">
+            <header>
+                <h2>Nevada 57th & 9th</h2>
+              </header>
+              <div class="btn icon-hun">
+                <i class="fas fa-heart"></i>
+              </div>
+        </div>
+        <div class="control">
+          <div class="btn btn-repeat">
+            <i class="fas fa-redo"></i>
+          </div>
+          <div class="btn btn-prev">
+            <i class="fas fa-angle-double-left"></i>
+          </div>
+          <div class="btn btn-toggle-play">
+            <i class="fas fa-pause icon-pause"></i>
+            <i class="fas fa-play icon-play"></i>
+          </div>
+          <div class="btn btn-next">
+            <i class="fas fa-angle-double-right"></i>
+          </div>
+          <div class="btn btn-random">
+            <i class="fas fa-random"></i>
+          </div>
+        </div>
+        <input
+          id="progress"
+          class="progress"
+          type="range"
+          value="0"
+          step="1"
+          min="0"
+          max="100"
+        />
+
+        <audio id="audio" src=""></audio>
+      </div>
+      <div class="playlist"></div>
+    </div>
+    <script src="./code/code.js"></script>
+  </body>
+</html>
